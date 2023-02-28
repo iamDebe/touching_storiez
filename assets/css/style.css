@@ -762,6 +762,8 @@ main {
 
 /* Publication Page */
 
+
+
 .publication{
     margin-top: 10rem;
 }
@@ -788,6 +790,12 @@ main {
     font-size: 1.3rem;
     color: #000000 !important;
 }
+.table-col{
+    padding: 30px 0 !important;
+}
+.table-row{
+    border-top: 1px solid #D9AD89;
+}
 tbody .table_hover td{
     /* padding:40px 0; */
 }
@@ -811,11 +819,9 @@ tbody .table_hover td{
 }
 #donut_single{
      height: 400px;
-     width: 100%;
 }
 #curve_chart{
      height: 400px;
-     width: 100%;
 
 
 }
@@ -1096,6 +1102,15 @@ tbody .table_hover td{
     font-size: 1rem !important;
 
 }
+#donut_single{
+    height: 400px;
+    /* width: 100%; */
+}
+#curve_chart{
+    height: 400px;
+    /* width: 100%; */
+
+
 }
 @media (max-width:576px){
     .hero_section{
@@ -1271,6 +1286,14 @@ tbody .table_hover td{
     font-size: 1.1rem;
 
 }
+#donut_single{
+    height: 400px;
+    width: 100% !important;
+}
+#curve_chart{
+    height: 400px;
+    width: 100% !important;
+}
  
 }
 @media (max-width:769px){
@@ -1433,9 +1456,25 @@ tbody .table_hover td{
     margin: 10rem 2rem 5rem 2rem;
 }
 
-/* publication */
+/* publication page*/
+
+.table-col{
+    padding: 30px 0 !important;
+}
+.table-row{
+    border-top: none !important;
+}
 .cust-border{
     border: none;
+}
+
+#donut_single{
+    height: 400px;
+    width: 100% !important;
+}
+#curve_chart{
+    height: 400px;
+    width: 100% !important;
 }
 
 
@@ -1572,9 +1611,25 @@ tbody .table_hover td{
     margin: 10rem 2rem 5rem 2rem;
 }
 
-/* publication */
+/* publication page */
+
 .cust-border{
     border: none;
+}
+.table-col{
+    padding: 30px 0 !important;
+}
+.table-row{
+    border-top: none !important;
+}
+
+#donut_single{
+    height: 400px;
+    width: 100% !important;
+}
+#curve_chart{
+    height: 400px;
+    width: 100% !important;
 }
     
 
