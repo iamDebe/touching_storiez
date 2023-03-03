@@ -159,7 +159,11 @@
                                             
                                             <div class="col-lg-6 col-12 offset-1 col-md-6 offset-md-1 mt-lg-0 mt-3 ms-0 mt-md-0  ms-lg-5" >
                                                     <button class="cust_btn-2  px-4"><a href="">Share</a> </button>
-                                                    <button class="cust_btn-1 ms-lg-4 ms-5 px-4 px-md-2 px-lg-4 ms-md-2"><a href="">Comment</a></button>
+                                                    <!-- Button trigger modal -->
+                                                    <a href="" type="button" class="cust_btn-1 ms-lg-4 ms-5 px-4 px-md-2 px-lg-4 ms-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                      Comment
+                                                    </a>
+                                                    <!-- <button class=""><a href="">Comment</a></button> -->
                                             </div>
                                            
                                         </div>
@@ -308,6 +312,94 @@
                        
                     </div>
                 </div>
+
+                <!-- Comment modal -->
+                
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                  <div class="modal-dialog modal-dialog-scrollable"  >
+                    <div class="modal-content modal-content-cust "  >
+                      <div class="modal-head d-flex">
+                        <h1 class="modal-titl  modal-center mx-auto my-3" id="exampleModalLabel">Comment</h1>
+                        <span type="button" class="btn-close close-x my-3" data-bs-dismiss="modal" aria-label="Close"></span>
+                      </div>
+                      <div class="modal-bod" >
+                        <textarea name="" id="" class="w-100 p-2 mt-3" rows="5" ></textarea>
+
+                        
+                      </div>
+                      <div class="modal-foote text-center">
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                        <button type="button" class="cust_btn-1 w-75 mx-auto my-4">Comment</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- login modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                  <div class="modal-dialog modal-dialog-scrollable"  >
+                    <div class="modal-content modal-content-cust "  >
+                      <div class="modal-header">
+                        <h1 class="modal-titl  modal-center mx-auto my-3" id="exampleModalLabel">Login</h1>
+                        <span type="button" class="btn-close close-x my-3" data-bs-dismiss="modal" aria-label="Close"></span>
+                      </div>
+                      <div class="modal-bod mt-5" >
+                        <form action="" class="row g-3 needs-validation" novalidate>
+                         
+                          <div class="col- reg_input-div mt-lg-2 mt-3 mt-sm-2">
+                          <div class="col- reg_input-div mt-1 mt-lg-0">
+                            <label for="validationCustomUsername" class="form-label"></label>
+                            <div class="input-group has-validation">
+                              <input type="email" class="form-control rounded-3 py-sm-2 py-1" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+                              <div class="invalid-feedback">
+                                Please enter a valid email address.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col- reg_input-div mt-1 mt-lg-0">
+                              <label for="validationCustomUsername" class="form-label"></label>
+                              <div class="input-group has-validation">
+                                <input type="password" class="form-control rounded-3 py-sm-2 py-1 p-word" id="validationCustomUsername" placeholder="Password" aria-describedby="inputGroupPrepend" required>
+                                <span class="input-group-text eye"><i class="bi bi-eye-slash"></i></span>
+                                <div class="invalid-feedback">
+                                  Please choose a password.
+                                </div>
+                              </div>
+                            </div>
+                        
+                          <div class=" col offset-sm-1 my-lg-4  ">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                              <label class="form-check-label " for="invalidCheck">
+                                <small>I have read and accepted the terms and conditions</small> 
+                              </label>
+                              <div class="invalid-feedback">
+                                Please agree to terms and conditions to proceed.
+                              </div>
+                            </div>
+                          </div>
+                         
+                        </form>
+                      </div>
+                      <div class="modal-foote text-center">
+                        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                        <button type="button" class="cust_btn-1 w-75 mx-auto my-4">Login</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="login_reg">
+                  <h2 class="text-capitalize login_reg-title  text-center text-md-center text-lg-center pt-lg-5 ">Login</h2>
+                  <p class="login_reg-subtitle text-center text-md-center text-lg-center  mt-lg-3 ">Please enter yor details</p>
+                   
+                   
+                  
+         
+    </div>
+
+               
                
             </section>
        
