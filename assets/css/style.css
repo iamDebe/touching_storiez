@@ -116,6 +116,9 @@
 body a{
     text-decoration: none;
 }
+body input[type="checkbox"]:checked, outline{
+    background-color: var(--primaryColor-1);
+}
 /* nav */
 .cust_nav{
     background-color: var(--bg-grey);
